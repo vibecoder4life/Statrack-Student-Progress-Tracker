@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271921262136",
+    "project_id": "studenttracker-aa582",
+    "storage_bucket": "studenttracker-aa582.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271921262136:android:33af6a19d2b78ccb35c0cd",
+        "android_client_info": {
+          "package_name": "com.example.studenttracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADZpBzSm4hyodYsYA87p5nhshNecdIVBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

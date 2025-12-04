@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Overall progress bar -->
+    <ProgressBar
+        android:id="@+id/progressOverall"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"/>
+
+    <!-- Overall percent -->
+    <TextView
+        android:id="@+id/tvProgressPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall: 0%"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Average grade -->
+    <TextView
+        android:id="@+id/tvAverageGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Grade: 0.0"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Passed / Failed -->
+    <TextView
+        android:id="@+id/tvPassed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passed: 0"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/tvFailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Failed: 0"
+        android:layout_marginTop="2dp"/>
+
+    <!-- RecyclerView for individual grades -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerProgress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
